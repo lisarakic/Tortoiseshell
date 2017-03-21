@@ -63,7 +63,7 @@ html {
    left: 23rem;
    background-color: white;
    font-weight: bold;
-   font-size: 1rem;
+   font-size: 1.5rem;
    padding: 1.5rem 5rem;
 }
 
@@ -146,4 +146,64 @@ footer img {
   height: 2rem;
   margin-right: 1rem;
   padding-left: 3rem;
+}
+
+@media only screen and (max-width: 960px) {
+  .nav {
+    margin-left: 0;
+    top: 0;
+    width: 45rem;
+  }
+  #banner h1 {
+    font-size: 1.25rem;
+    padding: .75rem 4rem;
+    left: 18rem;
+  }
+}
+
+@media only screen and (max-width: 470px){
+  .nav {
+    width: 25rem;
+    }
+  .nav p {
+    display: none;
+  }
+  #banner img {
+    height: 17rem;
+    width: auto;
+  }
+  #banner h1 {
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    top: 12rem;
+    left: 0;
+    right: 0;
+  }
+  .container {
+    flex-direction: column;
+    margin-top: 3.77rem;
+    margin-bottom: 3.77rem;
+    font-size: 0.77rem;
+  }
+  #column1a, #column2a, #column3a{
+    margin:auto;
+  }
+  .container2 {
+    flex-direction: column;
+    font-size: 0.77rem;
+  }
+  .container2 h4 {
+    width: 20rem;
+    text-align: center;
+  }
+  #column1b, #column2b {
+    width: 100%;
+  }
+  footer p {
+    display:none;
+  }
+  footer img {
+    margin-left: 4rem;
+  }
 }

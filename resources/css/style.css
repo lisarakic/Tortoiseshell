@@ -148,6 +148,10 @@ footer img {
   padding-left: 3rem;
 }
 
+.menu-trigger {
+  display: none;
+}
+
 @media only screen and (max-width: 960px) {
   .nav {
     margin-left: 0;
@@ -167,6 +171,16 @@ footer img {
     }
   .nav p {
     display: none;
+  }
+  .nav a {
+    display: none;
+  }
+  .menu-trigger {
+    display: inline-flex;
+    text-align: right;
+    margin-left: 10rem;
+    margin-right: -5rem;
+    align-items: center;
   }
   #banner img {
     height: 17rem;
